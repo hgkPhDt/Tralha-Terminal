@@ -29,7 +29,7 @@ system("mpg123 -q --loop 99 sound/break-acid.mp3 &");
 			printf("\n\t"BOLD GREEN REVERSE"  >>>> https://github.com/hgkPhDt/TT <<<<  "RESET);
 			printf("\n\n This game's developed by Philip Torres.");
 			printf("\n Press "BOLD"ENTER"RESET" to leave.");
-			bufferClean();s
+			bufferClean();
 		}
 
 		//Data the player
@@ -282,7 +282,7 @@ system("mpg123 -q --loop 99 sound/break-acid.mp3 &");
 
 				//Checking if player O won
 
-				s// //First line
+				// //First line
 				if(	hash[0][0] == 'O'&&
 						hash[0][1] == 'O'&&
 						hash[0][2] == 'O'||
